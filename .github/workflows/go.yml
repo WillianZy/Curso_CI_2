@@ -9,7 +9,7 @@ on:
 jobs:
 
   test:
-    runs-on: ['ubunto-latest', 'ubuntu-18.04']
+    runs-on: ['ubuntu-latest', 'ubuntu-18.04']
     strategy:
       matrix:
         go_version: ['1.18', '1.17', '>=1.18']
